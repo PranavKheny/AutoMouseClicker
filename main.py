@@ -13,7 +13,7 @@ def clicker():
     while True:
         if clicking:
             mouse.click(Button.left, 1)
-        time.sleep(0.01)
+        time.sleep(0.1)
 
 def toggle_event(key):
     if key == TOGGLE_KEY:
